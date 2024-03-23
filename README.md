@@ -26,3 +26,5 @@
 6. `地图房价热力图/Shenzhen_Choropleth_map.py` / `Shenzhen_heatmap_log.py`
    - 根据房价总价/单价绘制层次图或热力图。
 
+7. `地图房价分层图(高德底图)/Shenzhen_Choropleth_map.py` / `Shenzhen_heatmap_log.py`
+   - 使用高德底图进行绘制，避免网络原因导致的地图无法加载，坐标系更变为GCJ-02，需重新运行该文件夹下`坐标协议转换.py`和`小区去重 Ver2.0.py`后进行地图绘制。
